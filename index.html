@@ -1,0 +1,1302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="NB Graphics — Premium graphic design studio by Naman Sharma. Specializing in apparel design, branding, menus, and marketing materials." />
+  <title>NB Graphics — Designing the Future, One Pixel at a Time</title>
+  <link rel="icon" href="images/nblogo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=JetBrains+Mono:wght@300;400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=8" />
+</head>
+
+<body>
+
+  <!-- ═══════════════════ NAVBAR ═══════════════════ -->
+  <nav id="navbar">
+    <div class="nav-logo">
+      <img src="images/nb logo whiteBG.png" alt="NB Graphics Logo" />
+    </div>
+    <ul class="nav-links">
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#packages">Packages</a></li>
+      <li><a href="#roadmap">Process</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile nav drawer -->
+  <div class="nav-drawer" id="navDrawer">
+    <a href="#portfolio" class="drawer-link">Portfolio</a>
+    <a href="#packages" class="drawer-link">Packages</a>
+    <a href="#roadmap" class="drawer-link">Process</a>
+    <a href="#about" class="drawer-link">About</a>
+    <a href="#contact" class="drawer-link">Contact</a>
+  </div>
+
+  <!-- ═══════════════════ HERO ═══════════════════ -->
+  <section id="hero">
+
+    <!-- 3-column grid: text columns flank the portrait -->
+    <div class="hero-grid">
+
+      <!-- ROW 1 -->
+      <div class="hg-word hg-word--tl hero-anim-left" aria-hidden="true">NAMAN</div>
+      <div class="hg-center-top"></div>
+      <div class="hg-word hg-word--tr hero-anim-right" aria-hidden="true">SHARMA</div>
+
+      <!-- ROW 2: portrait spans both rows in center column -->
+      <div class="hg-word hg-word--bl hero-anim-left" aria-hidden="true">GRAPHIC</div>
+      <div class="hg-center-bot"></div>
+      <div class="hg-word hg-word--br hero-anim-right" aria-hidden="true">DESIGNER</div>
+
+    </div>
+
+    <!-- Portrait — absolutely centered, transparent PNG -->
+    <div class="hero-cutout hero-anim-up" id="heroCutout">
+      <img src="images/Merch Background Removed.png" alt="NB Graphics PIXELATE Merch" />
+    </div>
+
+    <!-- Top-left corner -->
+    <div class="hero-corner hero-corner--tl hero-anim-fade">
+      <a href="#contact" class="hero-start-link">START A PROJECT &nbsp;&#8599;</a>
+    </div>
+
+    <!-- Top-center studio name -->
+    <div class="hero-corner hero-corner--tc hero-anim-fade">
+      <span class="hero-studio-name">NAMAN SHARMA</span>
+    </div>
+
+    <!-- Bottom-left info block -->
+    <div class="hero-corner hero-corner--bl hero-anim-fade">
+      <p class="hero-desc">
+        AS A GRAPHIC DESIGNER, I FOCUS ON<br />
+        PRODUCING TOP&#8212;NOTCH AND IMPACTFUL<br />
+        VISUAL IDENTITIES.
+      </p>
+      <p class="hero-desc hero-desc--sm">NB GRAPHICS &mdash; DESIGN STUDIO, EST. 2023</p>
+      <a href="#portfolio" class="hero-cta">Let&rsquo;s talk &nbsp;&rarr;</a>
+    </div>
+
+    <!-- Bottom-right pills -->
+    <div class="hero-corner hero-corner--br hero-anim-fade">
+      <span class="hero-tag-pill">GRAPHIC DESIGN</span>
+      <span class="hero-tag-pill">2024</span>
+    </div>
+
+    <!-- Projects badge -->
+    <div class="hero-badge hero-anim-fade" aria-hidden="true">50+</div>
+
+  </section>
+
+  <!-- ═══════════════════ PORTFOLIO VAULT ═══════════════════ -->
+  <section id="portfolio">
+    <div class="section-header">
+      <span class="section-label">// 01 — Work</span>
+      <h2 class="section-title">Portfolio Vault</h2>
+      <div class="section-line"></div>
+    </div>
+
+    <!-- ── VAULT GRID (4 cover cards) ── -->
+    <div class="vault-grid" id="vaultGrid">
+
+      <!-- APPAREL -->
+      <div class="vault-card" data-vault="apparel" onclick="openVaultFolder('apparel')">
+        <div class="vault-card-content">
+          <h3 class="vault-card-title">APPAREL</h3>
+          <p class="vault-card-desc">High-concept streetwear and illustrative apparel design.</p>
+          <ul class="vault-card-list">
+            <li>Custom Illustration</li>
+            <li>Tech Pack Creation</li>
+            <li>Print-Ready Art</li>
+          </ul>
+          <div class="vault-card-btn">Explore Vault</div>
+        </div>
+        <div class="vault-card-graphic">
+          <img src="images/NBgraphics/Eagle/Blackback.png" alt="Apparel Cover" loading="lazy" />
+        </div>
+        <span class="vault-card-count">20+ Projects</span>
+      </div>
+
+      <!-- F&B -->
+      <div class="vault-card" data-vault="fnb" onclick="openVaultFolder('fnb')">
+        <div class="vault-card-content">
+          <h3 class="vault-card-title">F&amp;B</h3>
+          <p class="vault-card-desc">Modern menu design and café branding identities.</p>
+          <ul class="vault-card-list">
+            <li>Menu Engineering</li>
+            <li>Visual Storytelling</li>
+            <li>Digital Signage</li>
+          </ul>
+          <div class="vault-card-btn">Explore Vault</div>
+        </div>
+        <div class="vault-card-graphic">
+          <img src="images/Menu/1.png" alt="F&B Cover" loading="lazy" />
+        </div>
+        <span class="vault-card-count">5 Projects</span>
+      </div>
+
+      <!-- IDENTITY -->
+      <div class="vault-card" data-vault="identity" onclick="openVaultFolder('identity')">
+        <div class="vault-card-content">
+          <h3 class="vault-card-title">IDENTITY</h3>
+          <p class="vault-card-desc">Bold verbal and visual identities for modern brands.</p>
+          <ul class="vault-card-list">
+            <li>Logo Systems</li>
+            <li>Brand Guidelines</li>
+            <li>Typography Design</li>
+          </ul>
+          <div class="vault-card-btn">Explore Vault</div>
+        </div>
+        <div class="vault-card-graphic">
+          <img src="images/ALAR/ALAR-4.jpg" alt="Identity Cover" loading="lazy" />
+        </div>
+        <span class="vault-card-count">18+ Projects</span>
+      </div>
+
+      <!-- CORPORATE -->
+      <div class="vault-card" data-vault="corporate" onclick="openVaultFolder('corporate')">
+        <div class="vault-card-content">
+          <h3 class="vault-card-title">CORPORATE</h3>
+          <p class="vault-card-desc">Professional event graphics and corporate communications.</p>
+          <ul class="vault-card-list">
+            <li>Event Collateral</li>
+            <li>Social Media Assets</li>
+            <li>Presentation Design</li>
+          </ul>
+          <div class="vault-card-btn">Explore Vault</div>
+        </div>
+        <div class="vault-card-graphic">
+          <img src="images/aiesec/photo_2024-04-20_13-43-58.jpg" alt="Corporate Cover" loading="lazy" />
+        </div>
+        <span class="vault-card-count">10+ Projects</span>
+      </div>
+
+    </div>
+
+    <!-- ═══ FOLDER: APPAREL ═══ -->
+    <div class="vault-folder" id="vault-apparel">
+      <button class="vault-back" onclick="closeVaultFolder()">&#8592; &nbsp;Back to Vault</button>
+      <h3 class="vault-folder-title">Apparel &mdash; The Cerise / Pixelate Line</h3>
+      <div class="vault-masonry">
+
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="19" data-label="Apparel">
+          <img src="images/APPAREL/19.png" alt="19" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Apparel</span>
+              <div class="item-title">19</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="Abstract" data-label="Apparel">
+          <img src="images/APPAREL/Abstract.PNG" alt="Abstract" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Apparel</span>
+              <div class="item-title">Abstract</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="Abstract2" data-label="Apparel">
+          <img src="images/APPAREL/Abstract2.png" alt="Abstract2" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Apparel</span>
+              <div class="item-title">Abstract2</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="Blackback Copy" data-label="Apparel">
+          <img src="images/APPAREL/Blackback copy.png" alt="Blackback Copy" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Apparel</span>
+              <div class="item-title">Blackback Copy</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="Blackback" data-label="Apparel">
+          <img src="images/APPAREL/Blackback.png" alt="Blackback" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Apparel</span>
+              <div class="item-title">Blackback</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="Blackfront" data-label="Apparel">
+          <img src="images/APPAREL/Blackfront.png" alt="Blackfront" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Apparel</span>
+              <div class="item-title">Blackfront</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="Cat" data-label="Apparel">
+          <img src="images/APPAREL/Cat.PNG" alt="Cat" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Apparel</span>
+              <div class="item-title">Cat</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="Dream" data-label="Apparel">
+          <img src="images/APPAREL/Dream.png" alt="Dream" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Apparel</span>
+              <div class="item-title">Dream</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="Eyewalldesign" data-label="Apparel">
+          <img src="images/APPAREL/EyeWallDesign.PNG" alt="Eyewalldesign" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Apparel</span>
+              <div class="item-title">Eyewalldesign</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="F1" data-label="Apparel">
+          <img src="images/APPAREL/F1.PNG" alt="F1" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Apparel</span>
+              <div class="item-title">F1</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="Haikyuhoodie" data-label="Apparel">
+          <img src="images/APPAREL/HaikyuHoodie.png" alt="Haikyuhoodie" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Apparel</span>
+              <div class="item-title">Haikyuhoodie</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="Haikyupost2" data-label="Apparel">
+          <img src="images/APPAREL/Haikyupost2.png" alt="Haikyupost2" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Apparel</span>
+              <div class="item-title">Haikyupost2</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="Hakiyupost1" data-label="Apparel">
+          <img src="images/APPAREL/Hakiyupost1.png" alt="Hakiyupost1" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Apparel</span>
+              <div class="item-title">Hakiyupost1</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="Handheldineye" data-label="Apparel">
+          <img src="images/APPAREL/HandHeldinEye.png" alt="Handheldineye" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Apparel</span>
+              <div class="item-title">Handheldineye</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="Hands" data-label="Apparel">
+          <img src="images/APPAREL/Hands.PNG" alt="Hands" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Apparel</span>
+              <div class="item-title">Hands</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="Headback" data-label="Apparel">
+          <img src="images/APPAREL/HeadBack.PNG" alt="Headback" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Apparel</span>
+              <div class="item-title">Headback</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="Ladymoon" data-label="Apparel">
+          <img src="images/APPAREL/LadyMoon.png" alt="Ladymoon" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Apparel</span>
+              <div class="item-title">Ladymoon</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="Marshmellow" data-label="Apparel">
+          <img src="images/APPAREL/Marshmellow.PNG" alt="Marshmellow" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Apparel</span>
+              <div class="item-title">Marshmellow</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="Mountain" data-label="Apparel">
+          <img src="images/APPAREL/Mountain.png" alt="Mountain" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Apparel</span>
+              <div class="item-title">Mountain</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="Nbblack" data-label="Apparel">
+          <img src="images/APPAREL/NBBlack.PNG" alt="Nbblack" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Apparel</span>
+              <div class="item-title">Nbblack</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="New Collection Nb Graphics"
+          data-label="Apparel">
+          <img src="images/APPAREL/New Collection NB Graphics.png" alt="New Collection Nb Graphics" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Apparel</span>
+              <div class="item-title">New Collection Nb Graphics</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="Sideabstract" data-label="Apparel">
+          <img src="images/APPAREL/Sideabstract.png" alt="Sideabstract" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Apparel</span>
+              <div class="item-title">Sideabstract</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="Smoke" data-label="Apparel">
+          <img src="images/APPAREL/Smoke.PNG" alt="Smoke" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Apparel</span>
+              <div class="item-title">Smoke</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="Walltshirtdesign" data-label="Apparel">
+          <img src="images/APPAREL/WallTshirtDesign.PNG" alt="Walltshirtdesign" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Apparel</span>
+              <div class="item-title">Walltshirtdesign</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="Wasted" data-label="Apparel">
+          <img src="images/APPAREL/Wasted.PNG" alt="Wasted" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Apparel</span>
+              <div class="item-title">Wasted</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="Whitefronthead" data-label="Apparel">
+          <img src="images/APPAREL/WhiteFrontHead.PNG" alt="Whitefronthead" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Apparel</span>
+              <div class="item-title">Whitefronthead</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="Whiteback" data-label="Apparel">
+          <img src="images/APPAREL/Whiteback.png" alt="Whiteback" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Apparel</span>
+              <div class="item-title">Whiteback</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══ FOLDER: F&B ═══ -->
+    <div class="vault-folder" id="vault-fnb">
+      <button class="vault-back" onclick="closeVaultFolder()">&#8592; &nbsp;Back to Vault</button>
+      <h3 class="vault-folder-title">F&amp;B Branding &mdash; The Caf&eacute; Collection</h3>
+      <div class="vault-masonry">
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="1 Copy" data-label="F&B">
+          <img src="images/F&B/1 copy.png" alt="1 Copy" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">F&amp;B</span>
+              <div class="item-title">1 Copy</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="1" data-label="F&B">
+          <img src="images/F&B/1.png" alt="1" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">F&amp;B</span>
+              <div class="item-title">1</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="2" data-label="F&B">
+          <img src="images/F&B/2.png" alt="2" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">F&amp;B</span>
+              <div class="item-title">2</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="3" data-label="F&B">
+          <img src="images/F&B/3.png" alt="3" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">F&amp;B</span>
+              <div class="item-title">3</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="4" data-label="F&B">
+          <img src="images/F&B/4.png" alt="4" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">F&amp;B</span>
+              <div class="item-title">4</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="6" data-label="F&B">
+          <img src="images/F&B/6.png" alt="6" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">F&amp;B</span>
+              <div class="item-title">6</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="7" data-label="F&B">
+          <img src="images/F&B/7.png" alt="7" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">F&amp;B</span>
+              <div class="item-title">7</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="8" data-label="F&B">
+          <img src="images/F&B/8.png" alt="8" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">F&amp;B</span>
+              <div class="item-title">8</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="Menu 2" data-label="F&B">
+          <img src="images/F&B/Menu 2.png" alt="Menu 2" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">F&amp;B</span>
+              <div class="item-title">Menu 2</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="Menu 3" data-label="F&B">
+          <img src="images/F&B/Menu 3.png" alt="Menu 3" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">F&amp;B</span>
+              <div class="item-title">Menu 3</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="Standard Menu 1" data-label="F&B">
+          <img src="images/F&B/Standard Menu 1.png" alt="Standard Menu 1" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">F&amp;B</span>
+              <div class="item-title">Standard Menu 1</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══ FOLDER: IDENTITY ═══ -->
+    <div class="vault-folder" id="vault-identity">
+      <button class="vault-back" onclick="closeVaultFolder()">&#8592; &nbsp;Back to Vault</button>
+      <h3 class="vault-folder-title">Identity &amp; Graphics &mdash; Armada / Smoke / Manzil</h3>
+      <div class="vault-masonry">
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="1" data-label="Identity">
+          <img src="images/IDENTITY/1.png" alt="1" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Identity</span>
+              <div class="item-title">1</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="10" data-label="Identity">
+          <img src="images/IDENTITY/10.png" alt="10" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Identity</span>
+              <div class="item-title">10</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="11" data-label="Identity">
+          <img src="images/IDENTITY/11.png" alt="11" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Identity</span>
+              <div class="item-title">11</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="12" data-label="Identity">
+          <img src="images/IDENTITY/12.png" alt="12" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Identity</span>
+              <div class="item-title">12</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="15" data-label="Identity">
+          <img src="images/IDENTITY/15.png" alt="15" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Identity</span>
+              <div class="item-title">15</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="18" data-label="Identity">
+          <img src="images/IDENTITY/18.png" alt="18" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Identity</span>
+              <div class="item-title">18</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="19" data-label="Identity">
+          <img src="images/IDENTITY/19.png" alt="19" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Identity</span>
+              <div class="item-title">19</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="2" data-label="Identity">
+          <img src="images/IDENTITY/2.png" alt="2" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Identity</span>
+              <div class="item-title">2</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="5" data-label="Identity">
+          <img src="images/IDENTITY/5.png" alt="5" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Identity</span>
+              <div class="item-title">5</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="8" data-label="Identity">
+          <img src="images/IDENTITY/8.png" alt="8" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Identity</span>
+              <div class="item-title">8</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="9" data-label="Identity">
+          <img src="images/IDENTITY/9.png" alt="9" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Identity</span>
+              <div class="item-title">9</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="Alar 1" data-label="Identity">
+          <img src="images/IDENTITY/ALAR-1.png" alt="Alar 1" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Identity</span>
+              <div class="item-title">Alar 1</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="Alar 2" data-label="Identity">
+          <img src="images/IDENTITY/ALAR-2.png" alt="Alar 2" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Identity</span>
+              <div class="item-title">Alar 2</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="Alar 3" data-label="Identity">
+          <img src="images/IDENTITY/ALAR-3.png" alt="Alar 3" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Identity</span>
+              <div class="item-title">Alar 3</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="Crise3.1" data-label="Identity">
+          <img src="images/IDENTITY/CRISE3.1.png" alt="Crise3.1" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Identity</span>
+              <div class="item-title">Crise3.1</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="Crise3.2" data-label="Identity">
+          <img src="images/IDENTITY/CRISE3.2.png" alt="Crise3.2" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Identity</span>
+              <div class="item-title">Crise3.2</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="Img 20240523 Wa0071"
+          data-label="Identity">
+          <img src="images/IDENTITY/IMG-20240523-WA0071.jpg" alt="Img 20240523 Wa0071" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Identity</span>
+              <div class="item-title">Img 20240523 Wa0071</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="Manzil 1" data-label="Identity">
+          <img src="images/IDENTITY/MANZIL-1.png" alt="Manzil 1" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Identity</span>
+              <div class="item-title">Manzil 1</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="Manzil 2" data-label="Identity">
+          <img src="images/IDENTITY/MANZIL-2.png" alt="Manzil 2" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Identity</span>
+              <div class="item-title">Manzil 2</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="Manzil 3" data-label="Identity">
+          <img src="images/IDENTITY/MANZIL-3.png" alt="Manzil 3" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Identity</span>
+              <div class="item-title">Manzil 3</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="Manzil 4" data-label="Identity">
+          <img src="images/IDENTITY/MANZIL-4.png" alt="Manzil 4" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Identity</span>
+              <div class="item-title">Manzil 4</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="Manzil 5" data-label="Identity">
+          <img src="images/IDENTITY/MANZIL-5.png" alt="Manzil 5" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Identity</span>
+              <div class="item-title">Manzil 5</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="Manzil 6" data-label="Identity">
+          <img src="images/IDENTITY/MANZIL-6.png" alt="Manzil 6" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Identity</span>
+              <div class="item-title">Manzil 6</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)"
+          data-title="Summer Sale Fashion Clothing New Arrival Instagram Story Template Minimal Design For Discount Offer"
+          data-label="Identity">
+          <img
+            src="images/IDENTITY/Summer Sale Fashion Clothing New Arrival Instagram Story Template Minimal Design for Discount Offer.png"
+            alt="Summer Sale Fashion Clothing New Arrival Instagram Story Template Minimal Design For Discount Offer"
+            loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Identity</span>
+              <div class="item-title">Summer Sale Fashion Clothing New Arrival Instagram Story Template Minimal Design
+                For Discount Offer</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="Nblogo" data-label="Identity">
+          <img src="images/IDENTITY/nblogo.png" alt="Nblogo" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Identity</span>
+              <div class="item-title">Nblogo</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="Nblogo1" data-label="Identity">
+          <img src="images/IDENTITY/nblogo1.png" alt="Nblogo1" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Identity</span>
+              <div class="item-title">Nblogo1</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══ FOLDER: CORPORATE ═══ -->
+    <div class="vault-folder" id="vault-corporate">
+      <button class="vault-back" onclick="closeVaultFolder()">&#8592; &nbsp;Back to Vault</button>
+      <h3 class="vault-folder-title">Corporate &amp; Events &mdash; AIESEC Series</h3>
+      <div class="vault-masonry">
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="1000001253" data-label="Corporate">
+          <img src="images/CORPORATE/1000001253.JPG" alt="1000001253" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Corporate</span>
+              <div class="item-title">1000001253</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="1000010461" data-label="Corporate">
+          <img src="images/CORPORATE/1000010461.JPG" alt="1000010461" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Corporate</span>
+              <div class="item-title">1000010461</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="1000010462" data-label="Corporate">
+          <img src="images/CORPORATE/1000010462.JPG" alt="1000010462" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Corporate</span>
+              <div class="item-title">1000010462</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="1000010463" data-label="Corporate">
+          <img src="images/CORPORATE/1000010463.JPG" alt="1000010463" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Corporate</span>
+              <div class="item-title">1000010463</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="1000020596" data-label="Corporate">
+          <img src="images/CORPORATE/1000020596.JPG" alt="1000020596" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Corporate</span>
+              <div class="item-title">1000020596</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="1000039236" data-label="Corporate">
+          <img src="images/CORPORATE/1000039236.JPG" alt="1000039236" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Corporate</span>
+              <div class="item-title">1000039236</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="1000039237" data-label="Corporate">
+          <img src="images/CORPORATE/1000039237.JPG" alt="1000039237" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Corporate</span>
+              <div class="item-title">1000039237</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="1000039238" data-label="Corporate">
+          <img src="images/CORPORATE/1000039238.JPG" alt="1000039238" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Corporate</span>
+              <div class="item-title">1000039238</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="1000039240" data-label="Corporate">
+          <img src="images/CORPORATE/1000039240.JPG" alt="1000039240" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Corporate</span>
+              <div class="item-title">1000039240</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="1000039252" data-label="Corporate">
+          <img src="images/CORPORATE/1000039252.JPG" alt="1000039252" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Corporate</span>
+              <div class="item-title">1000039252</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="1000039798" data-label="Corporate">
+          <img src="images/CORPORATE/1000039798.JPG" alt="1000039798" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Corporate</span>
+              <div class="item-title">1000039798</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="1000071589" data-label="Corporate">
+          <img src="images/CORPORATE/1000071589.JPG" alt="1000071589" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Corporate</span>
+              <div class="item-title">1000071589</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="1000071590" data-label="Corporate">
+          <img src="images/CORPORATE/1000071590.JPG" alt="1000071590" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Corporate</span>
+              <div class="item-title">1000071590</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="1000071591" data-label="Corporate">
+          <img src="images/CORPORATE/1000071591.JPG" alt="1000071591" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Corporate</span>
+              <div class="item-title">1000071591</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="1000072696" data-label="Corporate">
+          <img src="images/CORPORATE/1000072696.JPG" alt="1000072696" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Corporate</span>
+              <div class="item-title">1000072696</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="14665" data-label="Corporate">
+          <img src="images/CORPORATE/14665.JPG" alt="14665" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Corporate</span>
+              <div class="item-title">14665</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="14671" data-label="Corporate">
+          <img src="images/CORPORATE/14671.JPG" alt="14671" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Corporate</span>
+              <div class="item-title">14671</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="14913" data-label="Corporate">
+          <img src="images/CORPORATE/14913.JPG" alt="14913" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Corporate</span>
+              <div class="item-title">14913</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="15260" data-label="Corporate">
+          <img src="images/CORPORATE/15260.JPG" alt="15260" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Corporate</span>
+              <div class="item-title">15260</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="16149" data-label="Corporate">
+          <img src="images/CORPORATE/16149.JPG" alt="16149" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Corporate</span>
+              <div class="item-title">16149</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="21096" data-label="Corporate">
+          <img src="images/CORPORATE/21096.JPG" alt="21096" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Corporate</span>
+              <div class="item-title">21096</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="3" data-label="Corporate">
+          <img src="images/CORPORATE/3.png" alt="3" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Corporate</span>
+              <div class="item-title">3</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="Alar 4" data-label="Corporate">
+          <img src="images/CORPORATE/ALAR-4.jpg" alt="Alar 4" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Corporate</span>
+              <div class="item-title">Alar 4</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="Alar 5" data-label="Corporate">
+          <img src="images/CORPORATE/ALAR-5.jpg" alt="Alar 5" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Corporate</span>
+              <div class="item-title">Alar 5</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="Alar 6" data-label="Corporate">
+          <img src="images/CORPORATE/ALAR-6.jpg" alt="Alar 6" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Corporate</span>
+              <div class="item-title">Alar 6</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="Img_7903" data-label="Corporate">
+          <img src="images/CORPORATE/IMG_7903.PNG" alt="Img_7903" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Corporate</span>
+              <div class="item-title">Img_7903</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="Img_7904" data-label="Corporate">
+          <img src="images/CORPORATE/IMG_7904.PNG" alt="Img_7904" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Corporate</span>
+              <div class="item-title">Img_7904</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="Img_7905" data-label="Corporate">
+          <img src="images/CORPORATE/IMG_7905.PNG" alt="Img_7905" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Corporate</span>
+              <div class="item-title">Img_7905</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="Photo_2024 04 20_13 45 42"
+          data-label="Corporate">
+          <img src="images/CORPORATE/photo_2024-04-20_13-45-42.jpg" alt="Photo_2024 04 20_13 45 42" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Corporate</span>
+              <div class="item-title">Photo_2024 04 20_13 45 42</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="Photo_2024 04 20_13 45 47"
+          data-label="Corporate">
+          <img src="images/CORPORATE/photo_2024-04-20_13-45-47.jpg" alt="Photo_2024 04 20_13 45 47" loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Corporate</span>
+              <div class="item-title">Photo_2024 04 20_13 45 47</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="Photo_2_2024 04 20_13 44 30"
+          data-label="Corporate">
+          <img src="images/CORPORATE/photo_2_2024-04-20_13-44-30.jpg" alt="Photo_2_2024 04 20_13 44 30"
+            loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Corporate</span>
+              <div class="item-title">Photo_2_2024 04 20_13 44 30</div>
+            </div>
+          </div>
+        </div>
+        <div class="vault-masonry-item" onclick="openLightbox(this)" data-title="Photo_7_2024 04 20_13 44 30"
+          data-label="Corporate">
+          <img src="images/CORPORATE/photo_7_2024-04-20_13-44-30.jpg" alt="Photo_7_2024 04 20_13 44 30"
+            loading="lazy" />
+          <div class="item-overlay">
+            <div><span class="item-label">Corporate</span>
+              <div class="item-title">Photo_7_2024 04 20_13 44 30</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ═══════════════════ LIGHTBOX ═══════════════════ -->
+  <div id="lightbox" role="dialog" aria-modal="true">
+    <div class="lightbox-inner">
+      <button class="lightbox-close" onclick="closeLightbox()">&times;</button>
+      <img id="lightbox-img" src="" alt="" />
+      <div class="lightbox-caption" id="lightbox-caption"></div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════ PACKAGES ═══════════════════ -->
+  <section id="packages">
+    <div class="section-header">
+      <span class="section-label">// 02 — Services</span>
+      <h2 class="section-title">Packages</h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="packages-grid">
+
+      <div class="pkg-card" data-reveal>
+        <div class="pkg-number">01</div>
+        <span class="pkg-icon">🎨</span>
+        <div class="pkg-name">Logo Design</div>
+        <ul class="pkg-list">
+          <li>6 Unique Templates</li>
+          <li>Full Color Palette</li>
+          <li>Font Selection Guide</li>
+          <li>Professional Mockups</li>
+        </ul>
+      </div>
+
+      <div class="pkg-card" data-reveal>
+        <div class="pkg-number">02</div>
+        <span class="pkg-icon">👕</span>
+        <div class="pkg-name">Merch Design</div>
+        <ul class="pkg-list">
+          <li>10 Unique Templates</li>
+          <li>Full Color Palette</li>
+          <li>Font Selection Guide</li>
+          <li>Professional Mockups</li>
+        </ul>
+      </div>
+
+      <div class="pkg-card" data-reveal>
+        <div class="pkg-number">03</div>
+        <span class="pkg-icon">🍽️</span>
+        <div class="pkg-name">Menu Design</div>
+        <ul class="pkg-list">
+          <li>5 Unique Templates</li>
+          <li>Full Color Palette</li>
+          <li>Font Selection Guide</li>
+          <li>Wall Menu Design</li>
+        </ul>
+      </div>
+
+      <div class="pkg-card" data-reveal>
+        <div class="pkg-number">04</div>
+        <span class="pkg-icon">📊</span>
+        <div class="pkg-name">Marketing Suite</div>
+        <ul class="pkg-list">
+          <li>3 Leaflet Templates</li>
+          <li>3 Brochure Templates</li>
+          <li>3 Catalog Templates</li>
+          <li>Brand-Consistent Design</li>
+        </ul>
+      </div>
+
+      <div class="pkg-card pkg-card--featured" data-reveal>
+        <div class="pkg-number">05</div>
+        <span class="pkg-icon">🖼️</span>
+        <div class="pkg-name">Specialty <span class="pixel-badge">PIXELATE</span></div>
+        <ul class="pkg-list">
+          <li>5 Banner Templates</li>
+          <li>4 Wall Art Templates</li>
+          <li>High-Resolution Files</li>
+          <li>Print-Ready Formats</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════ ROAD MAP ═══════════════════ -->
+  <section id="roadmap">
+    <div class="section-header">
+      <span class="section-label">// 03 — Process</span>
+      <h2 class="section-title">Road Map</h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="roadmap-list">
+
+      <div class="roadmap-item" data-roadmap-step>
+        <div class="rm-left">
+          <div class="rm-num">01</div>
+          <div class="rm-spine"></div>
+        </div>
+        <div class="rm-content">
+          <div class="rm-label">Step 1</div>
+          <h3 class="rm-title">Order</h3>
+          <p class="rm-body">We kick things off with a detailed conversation about your vision — brand goals, style
+            references, deliverables, and timeline. Once aligned, the project is formally accepted and we lock in the
+            brief.</p>
+          <span class="rm-tag">⟶ Project Kickoff</span>
+        </div>
+      </div>
+
+      <div class="roadmap-item" data-roadmap-step>
+        <div class="rm-left">
+          <div class="rm-num">02</div>
+          <div class="rm-spine"></div>
+        </div>
+        <div class="rm-content">
+          <div class="rm-label">Step 2</div>
+          <h3 class="rm-title">Half Payment</h3>
+          <p class="rm-body">To begin the design work, a 50% advance payment is required. This allows us to fully
+            dedicate our time and creative resources to your project without interruption.</p>
+          <span class="rm-tag">⟶ Payment: 50% Advance</span>
+        </div>
+      </div>
+
+      <div class="roadmap-item" data-roadmap-step>
+        <div class="rm-left">
+          <div class="rm-num">03</div>
+          <div class="rm-spine"></div>
+        </div>
+        <div class="rm-content">
+          <div class="rm-label">Step 3</div>
+          <h3 class="rm-title">Samples</h3>
+          <p class="rm-body">Within 10 business days you'll receive initial template samples — the first visual
+            representations of the concept — giving you a strong feel for the direction and space for meaningful
+            feedback.</p>
+          <span class="rm-tag">⟶ 10-Day Delivery Window</span>
+        </div>
+      </div>
+
+      <div class="roadmap-item" data-roadmap-step>
+        <div class="rm-left">
+          <div class="rm-num">04</div>
+          <div class="rm-spine"></div>
+        </div>
+        <div class="rm-content">
+          <div class="rm-label">Step 4</div>
+          <h3 class="rm-title">Finalizing</h3>
+          <p class="rm-body">We enter a collaborative editing phase where you provide feedback and we refine every
+            detail — colors, typography, layout, and composition — until everything is exactly how you envision it.</p>
+          <span class="rm-tag">⟶ Unlimited Revisions Phase</span>
+        </div>
+      </div>
+
+      <div class="roadmap-item" data-roadmap-step>
+        <div class="rm-left">
+          <div class="rm-num">05</div>
+        </div>
+        <div class="rm-content">
+          <div class="rm-label">Step 5</div>
+          <h3 class="rm-title">Completion</h3>
+          <p class="rm-body">Once satisfied with the final designs, the remaining 50% is due. After confirmation, all
+            final files are delivered in print-ready and digital formats — ready to launch.</p>
+          <span class="rm-tag">⟶ Payment: 50% Balance + File Delivery</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════ ABOUT ═══════════════════ -->
+  <section id="about">
+    <div class="section-header">
+      <span class="section-label">// 04 — Studio</span>
+      <h2 class="section-title">About</h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="about-inner">
+      <div class="about-img-wrap" data-reveal-left>
+        <img src="images/Naman.jpeg" alt="Naman Sharma — NB Graphics" />
+        <div class="about-img-accent"></div>
+        <div class="about-img-badge">
+          <span class="pixel-badge">PIXELATE</span>
+        </div>
+      </div>
+      <div class="about-text" data-reveal-right>
+        <p>
+          Hi, I'm <strong>Naman Sharma</strong> — the designer behind NB Graphics. I specialize in bold, pixel-perfect
+          visual identities that make brands unforgettable.
+        </p>
+        <p>
+          From high-concept streetwear apparel and illustrative art to F&amp;B menus and corporate event branding, I
+          bring a sharp eye for detail and a passion for high-contrast, impactful design.
+        </p>
+        <p>
+          Based in Patiala, working globally. Every project is crafted with intent — no templates, no shortcuts. Just
+          design that hits.
+        </p>
+        <div class="about-stats">
+          <div class="stat-item">
+            <span class="stat-num">50+</span>
+            <span class="stat-label">Projects Delivered</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num">3+</span>
+            <span class="stat-label">Years of Experience</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num">100%</span>
+            <span class="stat-label">Client Satisfaction</span>
+          </div>
+        </div>
+        <a href="#contact" class="hero-cta" style="margin-top:32px; display:inline-flex;">Start a Project &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ CONTACT ═══════════════════ -->
+  <section id="contact">
+    <div class="section-header">
+      <span class="section-label">// 05 — Get in Touch</span>
+      <h2 class="section-title">Contact</h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="contact-inner">
+      <div class="contact-left">
+        <p class="contact-intro">
+          Ready to take your brand to the next level? Reach out and let's build something together.
+        </p>
+        <div class="contact-detail">
+          <a href="mailto:nbgraphics0@gmail.com" class="contact-item">
+            <span class="icon">✉</span>
+            nbgraphics0@gmail.com
+          </a>
+          <a href="tel:+919983001339" class="contact-item">
+            <span class="icon">📞</span>
+            +91 9983001339
+          </a>
+          <a href="tel:+919599737525" class="contact-item">
+            <span class="icon">📞</span>
+            +91 9599737525
+          </a>
+        </div>
+        <div class="social-links">
+          <a href="https://www.instagram.com/nbgraphicss?igsh=ajZhNnk5czBoNjR2&utm_source=qr" target="_blank"
+            rel="noopener" class="social-link">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+              <circle cx="12" cy="12" r="5" />
+              <circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none" />
+            </svg>
+            @nbgraphicss
+          </a>
+        </div>
+      </div>
+
+      <div class="contact-right">
+        <h3>Studio Info</h3>
+        <div class="info-grid">
+          <div class="info-block">
+            <label>Studio</label>
+            <p>NB Graphics — Independent Design Studio</p>
+          </div>
+          <div class="info-block">
+            <label>Designer</label>
+            <p>Naman Sharma</p>
+          </div>
+          <div class="info-block">
+            <label>Specialization</label>
+            <p>Apparel Design · Branding · F&amp;B · Events</p>
+          </div>
+          <div class="info-block">
+            <label>Availability</label>
+            <p>Open for new projects</p>
+          </div>
+          <div class="info-block">
+            <label>Turnaround</label>
+            <p>Initial samples within 10 business days</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ FOOTER ═══════════════════ -->
+  <footer>
+    <div class="footer-logo">
+      <img src="images/nb logo whiteBG.png" alt="NB Graphics" />
+    </div>
+    <p class="footer-copy">
+      &copy; 2024 <span>NB Graphics</span>. Crafted with precision by Naman Sharma.
+    </p>
+    <p class="footer-social">
+      <a href="https://www.instagram.com/nbgraphicss?igsh=ajZhNnk5czBoNjR2&utm_source=qr" target="_blank"
+        rel="noopener">@nbgraphicss</a>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
