@@ -239,4 +239,19 @@ window.closeLightbox = closeLightbox;
   }, { passive: true });
 })();
 
+/* ── Floating Catalog Button Scroll Logic ── */
+(() => {
+  const btn = document.getElementById('floatingCatalogBtn');
+  if (!btn) return;
+  
+  window.addEventListener('scroll', () => {
+    // Show after scrolling 80% of viewport height
+    if (window.scrollY > window.innerHeight * 0.8) {
+      btn.classList.add('visible');
+    } else {
+      btn.classList.remove('visible');
+    }
+  }, { passive: true });
+})();
+
 console.log('%c🎨 NB Graphics — Designing the future, one pixel at a time.', 'color:#7851A9; font-family:monospace; font-size:14px;');
